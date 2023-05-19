@@ -1,0 +1,36 @@
+body {
+    background-color:rgb(155, 232, 235);
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+}
+.navbar {
+    background-color:rgb(40, 194, 199);
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+.hnav {
+    display: inline;
+}
+.pnav {
+    display: inline;
+}
+footer {
+    display: flex;
+    background-color:rgb(40, 194, 199);
+    color: white;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+div {
+    text-align: left;
+}

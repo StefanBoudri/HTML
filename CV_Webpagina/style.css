@@ -1,0 +1,84 @@
+body {
+    background-color:rgb(155, 232, 235);
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+}
+
+#navbar {
+    background-color:rgb(155, 232, 235);
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.hnav {
+    display: inline;
+}
+
+nav p {
+    display: inline;
+    padding-left: 5px;
+}
+
+/* Hier verdeel ik de onderwerpen van mijn CV in grids */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#werk {
+    grid-area: main;
+    display: inline;
+}
+
+#school {
+    grid-area: sidebar;
+}
+
+#hobby {
+    grid-area: sidebar1;
+}
+
+#technisch {
+    grid-area: footer1;
+}
+
+#overMij {
+    grid-area: main1;
+}
+
+div {
+    text-align: left;
+}
+
+div h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container > div {
+    background-color: rgb(40, 194, 199);
+    padding: 15px;
+    text-align: left;
+}
+
+.container{
+    grid-template-areas: 
+    'main1 sidebar1 footer1'
+    'main main sidebar';
+}
+
+/* Hier zet ik de footer op de juiste plek en geef ik hem de juiste kleur */
+footer {
+    display: flex;
+    background-color:rgb(155, 232, 235);
+    color: white;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
